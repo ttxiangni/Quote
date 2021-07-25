@@ -1,1 +1,72 @@
-eval(function(p,a,c,k,e,r){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a)>35?String.fromCharCode(c+29):c.toString(36))};if(!''.replace(/^/,String)){while(c--)r[e(c)]=k[c]||e(c);k=[function(e){return r[e]}];e=function(){return'\\w+'};c=1};while(c--)if(k[c])p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c]);return p}('2.3("<6>");2.3("7 K = K || [];");2.3("(4() {");2.3("  7 i = 2.p(\'6\');");2.3("  i.L = \'q://i.15.r/i.16?17\';");2.3("  7 s = 2.M(\'6\')[0]; ");2.3("  s.18.19(i, s);");2.3("})();");2.3("\\u/6>");2.3("<6 L=\'q://1a.1b.r/1c?1d=1e-8\'>\\u/6>");2.3("<6 N=\'O/1f\'>");2.3("\\t\\1g(1h[\'1i\'].1j(\'\\1k\\1l\') != -1){");2.3("\\t\\t\\1m.1n.1o=\'q://1p.1q.r\'");2.3("\\t\\t}");2.3("\\u/6>");$(2).1r(4(){$(".1s-k").1t(4(c){1u.1v.k($(1w).1x("1y"))})});!4(c,e,h){4 g(){1z(7 a=0;a<b.1A;a++)0>=b[a].l?(e.P.1B(b[a].v),b.1C(a,1)):(b[a].y--,b[a].j+=.1D,b[a].l-=.1E,b[a].v.Q.R="S:"+b[a].x+"T;U:"+b[a].y+"T;1F:"+b[a].l+";m:j("+b[a].j+","+b[a].j+") n(o);w:"+b[a].V+";z-1G:1H");A(g)}7 b=[];c.A=c.A||c.1I||c.1J||c.1K||c.1L||4(a){1M(a,1N/1O)};(4(a){7 d=e.p("Q");d.N="O/1P";1Q{d.B(e.1R(a))}1S(f){d.1T.R=a}e.M("1U")[0].B(d)})(".9{W: X;Y: X;Z: k;w: #1V;m: n(o);-10-m: n(o);-11-m: n(o);}.9:12,.9:13{1W: \'\';W: C;Y: C;w: C;D-E: F%;-10-D-E: F%;-11-D-E: F%;Z: k;}.9:12{U: -14;}.9:13{S: -14;}");(4(){7 a="4"==1X c.G&&c.G;c.G=4(d){a&&a();7 f=e.p("1Y");f.1Z="9";b.20({v:f,x:d.21-5,y:d.22-5,j:1,l:1,V:"23("+~~(H*I.J())+","+~~(H*I.J())+","+~~(H*I.J())+")"});e.P.B(f)}})();g()}(24,2);',62,129,'||document|writeln|function||script|var||heart|||||||||hm|scale|fixed|alpha|transform|rotate|45deg|createElement|https|com|||x3c|el|background||||requestAnimationFrame|appendChild|inherit|border|radius|50|onclick|255|Math|random|_hmt|src|getElementsByTagName|type|text|body|style|cssText|left|px|top|color|width|10px|height|position|webkit|moz|after|before|5px|baidu|js|94c6d2783d4c9299676ea164f11e2440|parentNode|insertBefore|pv|sohu|cityjson|ie|utf|javascript|tif|returnCitySN|cname|indexOf|u9999|u6e2f|twindow|location|href|www|zhuijukan|ready|ff|each|feifei|scroll|this|attr|id|for|length|removeChild|splice|004|013|opacity|index|99999|webkitRequestAnimationFrame|mozRequestAnimationFrame|oRequestAnimationFrame|msRequestAnimationFrame|setTimeout|1E3|60|css|try|createTextNode|catch|styleSheet|head|f00|content|typeof|div|className|push|clientX|clientY|rgb|window'.split('|'),0,{}))
+//统计
+document.writeln("<script>");
+document.writeln("var _hmt = _hmt || [];");
+document.writeln("(function() {");
+document.writeln("  var hm = document.createElement(\'script\');");
+document.writeln("  hm.src = \'https://hm.baidu.com/hm.js?94c6d2783d4c9299676ea164f11e2440\';");
+document.writeln("  var s = document.getElementsByTagName(\'script\')[0]; ");
+document.writeln("  s.parentNode.insertBefore(hm, s);");
+document.writeln("})();");
+document.writeln("</script>");
+//地区
+document.writeln("<script src=\'https://pv.sohu.com/cityjson?ie=utf-8\'></script>");
+document.writeln("<script type=\'text/javascript\'>");
+document.writeln("		if(returnCitySN[\'cname\'].indexOf(\'香港\') != -1){");
+document.writeln("			window.location.href=\'https://www.zhuijukan.com\'");
+document.writeln("		}");
+document.writeln("</script>");
+//主题自定义JS库
+$(document).ready(function(){
+	//悬浮广告
+	$(".ff-fixed").each(function(i){
+		feifei.scroll.fixed($(this).attr('id'));
+	});
+	//feifei.language.s2t();
+});
+//JS特效
+!function(e, t, a) {
+function r() {
+for (var e = 0; e < s.length; e++) s[e].alpha <= 0 ? (t.body.removeChild(s[e].el), s.splice(e, 1)) : (s[e].y--, s[e].scale += .004, s[e].alpha -= .013, s[e].el.style.cssText = "left:" + s[e].x + "px;top:" + s[e].y + "px;opacity:" + s[e].alpha + ";transform:scale(" + s[e].scale + "," + s[e].scale + ") rotate(45deg);background:" + s[e].color + ";z-index:99999");
+requestAnimationFrame(r)
+}
+function n() {
+var t = "function" == typeof e.onclick && e.onclick;
+e.onclick = function(e) {
+t && t(),
+o(e)
+}
+}
+function o(e) {
+var a = t.createElement("div");
+a.className = "heart",
+s.push({
+el: a,
+x: e.clientX - 5,
+y: e.clientY - 5,
+scale: 1,
+alpha: 1,
+color: c()
+}),
+t.body.appendChild(a)
+}
+function i(e) {
+var a = t.createElement("style");
+a.type = "text/css";
+try {
+a.appendChild(t.createTextNode(e))
+} catch(t) {
+a.styleSheet.cssText = e
+}
+t.getElementsByTagName("head")[0].appendChild(a)
+}
+function c() {
+return "rgb(" + ~~ (255 * Math.random()) + "," + ~~ (255 * Math.random()) + "," + ~~ (255 * Math.random()) + ")"
+}
+var s = [];
+e.requestAnimationFrame = e.requestAnimationFrame || e.webkitRequestAnimationFrame || e.mozRequestAnimationFrame || e.oRequestAnimationFrame || e.msRequestAnimationFrame ||
+function(e) {
+setTimeout(e, 1e3 / 60)
+},
+i(".heart{width: 10px;height: 10px;position: fixed;background: #f00;transform: rotate(45deg);-webkit-transform: rotate(45deg);-moz-transform: rotate(45deg);}.heart:after,.heart:before{content: '';width: inherit;height: inherit;background: inherit;border-radius: 50%;-webkit-border-radius: 50%;-moz-border-radius: 50%;position: fixed;}.heart:after{top: -5px;}.heart:before{left: -5px;}"),
+n(),
+r() } (window, document);
