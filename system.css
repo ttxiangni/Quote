@@ -190,7 +190,7 @@ a:focus {
 }
 .vod-item-img li .image a:hover .playbtn{
 	z-index:4;
-	background:url(Images/v_playBtn.png) center center no-repeat;
+	background:url(//cdn.jsdelivr.net/gh/txttaini/Quote/Images/v_playBtn.png) center center no-repeat;
 	opacity: 1.0;
 }
 .vod-item-img h2{
