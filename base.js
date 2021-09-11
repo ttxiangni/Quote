@@ -252,7 +252,7 @@ var feifei = {
 				html: true
 		});
 		$(".glyphicon-phone").on('show.bs.popover', function () {
-			$(".glyphicon-phone").attr('data-content','<img class="ff-qrcode" src="//cdn.feifeicms.co/qrcode/1.0/?w=150&h=150&url='+encodeURIComponent(feifei.browser.url)+'"/>');
+			$(".glyphicon-phone").attr('data-content','<img class="ff-qrcode" src="//share.tvzb.cc/?w=150&h=150&text='+encodeURIComponent(feifei.browser.url)+'"/>');
 		})
 	},
 	'vcode':function(){//安全码
@@ -1192,28 +1192,6 @@ $(document).ready(function(){
 	feifei.hits.load();
 	//feifei.share.baidu();
 });
-
-//屏蔽
-    var system = {
-        win: false,
-        mac: false,
-        xll: false
-    };
-    var p = navigator.platform;
-    var us = navigator.userAgent.toLowerCase();
-    system.win = p.indexOf("Win") == 0;
-    system.mac = p.indexOf("Mac") == 0;
-    system.x11 = (p == "X11") || (p.indexOf("Linux") == 0);
-    if (system.win || system.mac || system.xll) {
-    var iframe_url=cms.root+'stop.html';
-    $("head").html('<meta charset="UTF-8"><meta name="referrer" content="no-referrer"><title>抱歉，站点已暂停</title><style>body{position:static !important;}body *{ visibility:hidden; }</style> ');
-    $("body").empty();
-    $(document).ready(function () {
-    $("body").html('<iframe style="width:100%; height:460px;position:absolute;margin-left:0px;margin-top:0px;left:0%;" id="mainFrame" src="'+iframe_url+'" frameborder="0" scrolling="no"></iframe>').show();
-    $("body *").css("visibility", "visible");
-  });
-}
-
 
 function _51_tj(){
     document.writeln("<script type=\'text/javascript\' src=\'https://js.users.51.la/21104663.js\'></script><script>!function(p){\'use strict\';!function(t){var s=window,e=document,i=p,c=\'\'.concat(\'https:\'===e.location.protocol?\'https://\':\'http://\',\'sdk.51.la/js-sdk-pro.min.js\'),n=e.createElement(\'script\'),r=e.getElementsByTagName(\'script\')[0];n.type=\'text/javascript\',n.setAttribute(\'charset\',\'UTF-8\'),n.async=!0,n.src=c,n.id=\'LA_COLLECT\',i.d=n;var o=function(){s.LA.ids.push(i)};s.LA?s.LA.ids&&o():(s.LA=p,s.LA.ids=[],o()),r.parentNode.insertBefore(n,r)}()}({id:\'JHW6ol90dGQdd3h4\',ck:\'JHW6ol90dGQdd3h4\'});</script>");
