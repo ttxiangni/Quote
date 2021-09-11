@@ -234,8 +234,7 @@ var feifei = {
 		$.ajaxSetup({
 			cache: true
 		});
-		$.getScript(
-			+"Public/jquery.lazyload/1.9.7/jquery.lazyload.min.js", function(response, status) {
+		$.getScript(cms.root+"Public/jquery.lazyload/1.9.7/jquery.lazyload.min.js", function(response, status) {
 			$("img.ff-img").lazyload({
 				placeholder : cms.root+"Public/images/no.jpg",
 				effect : "fadeIn",
