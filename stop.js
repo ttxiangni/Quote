@@ -1,6 +1,4 @@
-
-//屏蔽
-    var system = {
+var system = {
         win: false,
         mac: false,
         xll: false
